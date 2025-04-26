@@ -1,6 +1,6 @@
 # Design web - React.js + Vite
 
-Este é um protótipo de site desenvolvido utilizando **React.js** com **Vite**, com foco em um layout responsivo e carrosséis de imagens.
+Este é um design de site desenvolvido utilizando **React.js** com **Vite**, com foco em um layout responsivo e carrosséis de imagens.
 
 ## 📋 Sobre o Projeto
 
