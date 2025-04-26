@@ -1,0 +1,209 @@
+.nav {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  height: 74px;
+}
+
+.nav-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.logo {
+  width: 180px;
+  height: auto;
+}
+
+.barra-pesquisa {
+  flex: 1;
+  max-width: 560px;
+  display: flex;
+  align-items: center;
+  padding: 6px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 20px;
+}
+
+.barra-pesquisa input {
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+  background: transparent;
+}
+
+.barra-pesquisa input::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.barra-pesquisa .icon {
+  font-size: 22px;
+  color: #008e4f;
+  margin-right: 8px;
+}
+
+.nav-box-login-comprar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-login,
+.btn-comprar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 6px 14px;
+}
+
+.btn-login {
+  background-color: #ff671d;
+  color: white;
+  border: none;
+  transition: background 0.3s;
+}
+
+.btn-login:hover {
+  background-color: #e1550f;
+}
+
+.btn-comprar {
+  background-color: #fff;
+  border: 1px solid #008e4f;
+  color: #008e4f;
+}
+
+.icon-cart,
+.icon-compra {
+  font-size: 24px;
+}
+
+.icon-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notificacao {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #ff671d;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo para telas menores */
+@media (max-width: 955px) {
+  .nav {
+    height: auto;
+    padding: 0;
+  }
+
+  .nav-box {
+    flex-direction: column;
+    padding: 8px 16px;
+    gap: 10px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .barra-pesquisa {
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .nav-box-login-comprar {
+    display: none;
+  }
+}
+
+.header-dois {
+  background-color: #008e4f;
+  width: 100%; /* fixo em 220px */
+  height: 48px; /* fixo em 40px */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px; /* reduzi o padding */
+  position: relative;
+}
+
+.btn-menu {
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 0;
+}
+
+.container-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-comprar-login-2 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.btn-login-2,
+.btn-comprar-2 {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-card-2 {
+  font-size: 26px;
+  color: #fff;
+}
+
+.icon-compra-2 {
+  font-size: 30px;
+  color: #fff;
+}
+
+.logo2 {
+  width: 140px;
+  height: 28px;
+}

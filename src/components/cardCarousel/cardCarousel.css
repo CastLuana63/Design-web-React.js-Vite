@@ -1,0 +1,76 @@
+.card-carousel {
+  display: flex;
+  overflow-x: auto;
+  cursor: grab;
+  scroll-behavior: smooth;
+  user-select: none;
+  max-width: 1190px;
+  width: 100%;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+  will-change: transform;
+  -webkit-overflow-scrolling: touch;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 10px 0;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.card-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.card-carousel:active {
+  cursor: grabbing;
+}
+
+.card-item {
+  scroll-snap-align: start;
+  flex: 0 0 auto;
+  width: 390px;
+  max-width: 90vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  touch-action: pan-y;
+}
+
+.card-item .icon {
+  font-size: 30px;
+  color: #008e4f;
+}
+
+.card-item p {
+  color: #4b5861;
+  font-size: 13px;
+  text-align: center;
+}
+
+.avaliacao {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+@media (max-width: 850px) {
+  .card-item {
+    width: 250px;
+    gap: 3px;
+  }
+
+  .card-item .icon {
+    font-size: 24px;
+  }
+
+  .card-item p {
+    font-size: 11px;
+  }
+
+  .avaliacao {
+    font-size: 11px;
+  }
+}

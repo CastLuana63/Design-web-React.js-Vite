@@ -83,3 +83,7 @@ Este é um protótipo de site desenvolvido utilizando **React.js** com **Vite**,
 
 3. **Rode o projeto:**
    > `npm run dev`
+
+### 📄 Licença
+
+> Este projeto é apenas um protótipo para fins de estudo e não possui licença de uso comercial.
