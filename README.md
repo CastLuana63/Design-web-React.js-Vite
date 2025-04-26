@@ -29,7 +29,7 @@ O layout do site foi projetado para se adaptar de forma responsiva em diversos t
 - Menu superior completo com links rápidos.
 - Layout amplo e espaçado, aproveitando a largura da tela.
 
-> ![exemplo](./src/assets/modelo1.png) ![exemplo](./src/assets/modelo2.png) ![exemplo](./src/assets/modelo3.png) ![exemplo](./src/assets/modelo4.png)
+> ![exemplo](./src/assets/modelo1.png) ![exemplo](./src/assets/modelo2.png)  
 
 ---
 
@@ -40,7 +40,7 @@ O layout do site foi projetado para se adaptar de forma responsiva em diversos t
 - Botão de feedback continua visível e adaptado ao toque.
 - Redução automática de tamanhos de fontes e espaçamentos.
 
-> ![exemplo](./src/assets/modelo5.png) ![exemplo](./src/assets/modelo6.png)
+> ![exemplo](./src/assets/modelo3.png) ![exemplo](./src/assets/modelo4.png) ![exemplo](./src/assets/modelo5.png) ![exemplo](./src/assets/modelo6.png)
 
 ---
 
